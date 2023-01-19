@@ -1,3 +1,5 @@
+################### Append to existing .bashrc ###################
+
 # auto-complete git branches
 autoload -Uz compinit && compinit
 
