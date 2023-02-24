@@ -9,3 +9,9 @@ set -o vi
 # alias to use for connecting to dotfiles git repo
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
+# add for python path
+export PATH="$PATH:/home/carly/.local/bin"
+
+# python aliases
+alias venv="python3 -m venv .env"
+alias activate="source .env/bin/activate"
