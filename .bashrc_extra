@@ -1,7 +1,9 @@
 ################### Append to existing .bashrc ###################
 
 # auto-complete git branches
-autoload -Uz compinit && compinit
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
 
 # add vim to command line in bash
 set -o vi
