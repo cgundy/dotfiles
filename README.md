@@ -10,3 +10,8 @@ config add .bashrc
 config commit -m "Add bashrc"
 config push
 ```
+
+To updated `.bashrc`: 
+```
+cat ~/.bashrc_extra >> ~/.bashrc
+```
